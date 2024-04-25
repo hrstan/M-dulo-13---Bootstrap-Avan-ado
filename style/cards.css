@@ -1,0 +1,12 @@
+
+.card-img-overlay { 
+    background-color: rgba(2, 2, 2, 0.712);
+}
+
+.col-4 { 
+    padding: 30px; 
+}
+
+.card-subtitle .text-muted { 
+    color: white;
+}

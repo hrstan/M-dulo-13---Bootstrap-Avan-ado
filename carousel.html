@@ -1,0 +1,59 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/lib/bootstrap.min.css">
+        <link rel="stylesheet" href="/style/carousel.css">
+        <title>Carousel Bootstrap</title>
+    </head>
+    <body>
+        <!-- o id serve para identificar a div para ser puxada la no botao-->
+        <!-- Podemos usar outros efeitos, como o carousel-FADE -->
+       <div class="container">
+        <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+            
+            <div class="carousel-inner">
+                <div .data-bs-interval="500" class="carousel-item active"> 
+                    <img class="d-block w-100"src="https://w.wallhaven.cc/full/r2/wallhaven-r2g7rm.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>WallpaperHeaven </h2>
+                        <h6>Wallpaper</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem corrupti ducimus distinctio unde neque libero alias qui eius magnam voluptate pariatur modi, minima atque dolorum in voluptatum laborum. Autem, ex.</p>
+                    </div>
+
+                </div>
+                <div .data-bs-interval="500" class="carousel-item">
+                    <img class="d-block w-100"src="https://w.wallhaven.cc/full/ym/wallhaven-ym1m8l.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>WallpaperHeaven </h2>
+                        <h6>Wallpaper</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem corrupti ducimus distinctio unde neque libero alias qui eius magnam voluptate pariatur modi, minima atque dolorum in voluptatum laborum. Autem, ex.</p>
+                    </div> 
+                </div>
+                <div .data-bs-interval="500" class="carousel-item">
+                    <img class="d-block w-100"src="https://w.wallhaven.cc/full/ex/wallhaven-exyo5o.png" alt="">
+                    <div class="carousel-caption">
+                        <h2>WallpaperHeaven </h2>
+                        <h6>Wallpaper</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem corrupti ducimus distinctio unde neque libero alias qui eius magnam voluptate pariatur modi, minima atque dolorum in voluptatum laborum. Autem, ex.</p>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        <!-- Indicadores das fotos-->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+        </div>
+        </div>
+       </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="/style/cards.css">
+    <title>Bootstrap - Cards</title>
+</head>
+<body>
+    <h1>Bootstrap - Cards!</h1>
+    <div class="container"> <!-- Div PAI de todos.-->
+        <div class="row"> <!-- row = linha / aqui se inicia a linha--> 
+             <!-- Aqui numeramos a quantidade de coluna que queremos na pagina, o bootstrap vem por padrao 12 colunas, divido por quantidade que queremos de item. Nesse caso, foi por 12/3 = 4-->
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header"> <!-- Aqui temos o cabeçalho do card-->
+                        CARD COM DIV PADRÃO
+                    </div>
+                    <img src="https://via.placeholder.com/100x100"/>
+                    <div class="card-body">
+                        <h4 class="card-title">Titulo</h4>
+                        <h6 class="card-subtitle">Subtitulo</h6>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquam explicabo dolor iure, ad numquam, sed velit quas quia, sint quasi nisi et architecto iste officia quisquam quis illo dolore?</p> 
+                        <a href="#" class="btn btn-primary">Botão 1</a>
+                    </div>
+                    <footer class="card-footer">teste</footer>
+                </div>
+            </div> 
+
+            <!-- Para continuar na mesma linha, continue dentro do ROW mas crie outra col-->
+
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        Card no modo escuro
+                    </div>
+                    <img src="https://via.placeholder.com/100x100"/>
+                    <div class="card-body">
+                        <h4 class="card-title"> Card no modo escuro</h4>
+                        <h6 class="card-subtitle">Utiliznado a tag text-bg-dark</h6>
+                        <p  class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquam explicabo dolor iure, ad numquam, sed velit quas quia, sint quasi nisi et architecto iste officia quisquam quis illo dolore?</p>
+                        <a href="#" class="btn btn-secondary">Botão 2</a>
+                    </div>
+                    <footer class="card-footer">teste</footer>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        CARD COM DIV PADRÃO 3
+                    </div>
+                    <img src="https://via.placeholder.com/100x100"/>
+                    <div class="card-body">
+                        <h4 class="card-title"> Title</h4>
+                        <h6 class="card-subtitle">Subtitle</h6>
+                        <p  class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquam explicabo dolor iure, ad numquam, sed velit quas quia, sint quasi nisi et architecto iste officia quisquam quis illo dolore?</p>
+                        <a href="#" class="btn btn-link">Botão 3</a>
+                    </div>
+                    <footer class="card-footer">teste</footer>
+                </div>
+            </div>
+            
+            
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        CARD COM DIV PADRÃO 4
+                    </div>
+                    <img src="https://via.placeholder.com/100x100"/>
+                    <div class="card-body">
+                        <h4 class="card-title"> Title</h4>
+                        <h6 class="card-subtitle">Subtitle</h6>
+                        <p  class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquam explicabo dolor iure, ad numquam, sed velit quas quia, sint quasi nisi et architecto iste officia quisquam quis illo dolore?</p>
+                        <a href="#" class="btn btn-secondary">Botão 4</a>
+                    </div>
+                    <footer class="card-footer">teste</footer>
+                </div>
+            </div>
+
+            <div class="col-4"> <!-- exemplo card com background de imagem-->
+                <div class="card text-bg-dark">
+                    <img class="card-img" src="https://w.wallhaven.cc/full/jx/wallhaven-jxywww.jpg"/>
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Card com Imagem ao Fundo</h4>
+                        <h6 class="card-subtitle">Subtitle</h6>
+                        <p  class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquam explicabo dolor iure, ad numquam, sed velit quas quia, sint quasi nisi et architecto iste officia quisquam quis illo dolore?</p>
+                        <a href="#" class="btn btn-link">Botão 5</a>
+                    </div>
+                    <footer class="card-footer">teste</footer>
+                </div>
+            </div>
+            
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        CARD COM DIV PADRÃO 6
+                    </div>
+                    <img src="https://via.placeholder.com/100x100"/>
+                    <div class="card-body">
+                        <h4 class="card-title"> Title</h4>
+                        <h6 class="card-subtitle">Subtitle</h6>
+                        <p  class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquam explicabo dolor iure, ad numquam, sed velit quas quia, sint quasi nisi et architecto iste officia quisquam quis illo dolore?</p>
+                        <a href="#" class="btn btn-link">Botão 6</a>
+                    </div>
+                    <footer class="card-footer">teste</footer>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        CARD COM DIV PADRÃO 7
+                    </div>
+                    <img src="https://via.placeholder.com/100x100"/>
+                    <div class="card-body">
+                        <h4 class="card-title"> Title</h4>
+                        <h6 class="card-subtitle">Subtitle</h6>
+                        <p  class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquam explicabo dolor iure, ad numquam, sed velit quas quia, sint quasi nisi et architecto iste officia quisquam quis illo dolore?</p>
+                        <a href="#" class="btn btn-link">Botão 6</a>
+                    </div>
+                    <footer class="card-footer">teste</footer>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <article class="card">
+                    <header class="card-header">
+                        Card dentro de um Article
+                    </header>
+                    <img src="https://via.placeholder.com/100x100"/>
+                    <div class="card-body">
+                        <h4 class="card-title"> Article Card com tags certas</h4>
+                        <h6 class="card-subtitle">Subtitle</h6>
+                        <p  class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquam explicabo dolor iure, ad numquam, sed velit quas quia, sint quasi nisi et architecto iste officia quisquam quis illo dolore?</p>
+                        <a href="#" class="btn btn-link">Botão 6</a>
+                    </div>
+                    <footer class="card-footer">teste</footer>
+                </article>
+            </div>
+
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-header">
+                        CARD COM DIV PADRÃO 9
+                    </div>
+                    <img src="https://via.placeholder.com/100x100"/>
+                    <div class="card-body">
+                        <h4 class="card-title"> Title</h4>
+                        <h6 class="card-subtitle">Subtitle</h6>
+                        <p  class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquam explicabo dolor iure, ad numquam, sed velit quas quia, sint quasi nisi et architecto iste officia quisquam quis illo dolore?</p>
+                        <a href="#" class="btn btn-link">Botão 6</a>
+                    </div>
+                    <footer class="card-footer">teste</footer>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
