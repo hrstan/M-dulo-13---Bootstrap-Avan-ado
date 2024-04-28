@@ -1,0 +1,13 @@
+body {
+    height: 100%;
+    background-color: rgb(195, 159, 253);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+}
+
+.dropdown-menu{
+    background-color: rgba(255, 255, 255, 0.253);
+ }
+
