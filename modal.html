@@ -4,28 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="/style/modal.css">
     <title>Modal</title>
 </head>
 <body>
-    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exemplo-modal">
-        Abrir Modal
-    </button>
-    <div class="modal" id="exemplo-modal" data-bs-backdrop="static">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5>Modal Header</h5>
-                </div>
-                <div class="modal-body">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores delectus quaerat ab sit numquam esse consequuntur tempore blanditiis enim neque laborum quasi, quae quod magnam velit atque corporis consectetur natus!</p>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
-                    <button class="btn btn-success" data-bs-dismiss="modal">Aceitar</button>
+    <div class="container">
+        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exemplo-modal">
+            Abrir Modal
+        </button>
+    </div>
+        <div class="modal" id="exemplo-modal" data-bs-backdrop="static">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5>Modal Header</h5>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores delectus quaerat ab sit numquam esse consequuntur tempore blanditiis enim neque laborum quasi, quae quod magnam velit atque corporis consectetur natus!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+                        <button class="btn btn-success" data-bs-dismiss="modal">Aceitar</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     <script src="./lib/bootstrap.bundle.min.js"></script>
     <script src="./js/modal.js"></script>
 </body>
