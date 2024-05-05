@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="/style/toasts.css">
+    <title>Toats</title>
+</head>
+<body>
+    <header>
+                <!-- Nav tabs -->
+            <ul
+            class="nav nav-tabs"
+            id="navId"
+            role="tablist"
+        >
+            <li class="nav-item">
+                <a
+                    href="#tab1Id"
+                    class="nav-link active"
+                    data-bs-toggle="tab"
+                    aria-current="page"
+                    >Active</a
+                >
+            </li>
+            <li class="nav-item dropdown">
+                <a
+                    class="nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    href="#"
+                    role="button"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    >Dropdown</a
+                >
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#tab2Id">Action</a>
+                    <a class="dropdown-item" href="#tab3Id">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#tab4Id">Action</a>
+                </div>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a href="#tab5Id" class="nav-link" data-bs-toggle="tab"
+                    >Another link</a
+                >
+            </li>
+            <li class="nav-item" role="presentation">
+                <a href="#" class="nav-link disabled" data-bs-toggle="tab"
+                    >Disabled</a
+                >
+            </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="tab1Id" role="tabpanel">
+                
+            </div>
+            <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
+            <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
+            <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
+            <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
+        </div>
+    </header>
+    <main>
+    
+       <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Title</h3>
+                        <p class="card-text">Text</p>
+                    </div>
+                    <div class="card-footer">
+                        <button id="btn-checar" type="button" class="btn btn-warning"> Check</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Title</h3>
+                        <p class="card-text">Text</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Title</h3>
+                        <p class="card-text">Text</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div class="toast" id="mensagens-alerta">
+                <header class="toast-header">
+                    <strong>Importante</strong>
+                </header>
+                <div class="toast-body">
+                    Você possui mensagens não lidas.
+                    <div class="mt-2 pt-2">
+                        <button class="btn btn-danger" data-bs-dismiss="toast">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+       
+    </main>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+    <script src="./js/toast.js"></script>
+</body>
+</html>
